@@ -1,7 +1,6 @@
 # Smart-Building-Energy-Forecasting
 # Adaptive Time-Series Forecasting for Smart Building Energy Consumption
 
-An end-to-end predictive machine learning pipeline designed to forecast hourly energy consumption loads under non-stationary conditions. This framework targets data drift by implementing structural change-point detection to isolate operational regimes, building localized models that outperform rigid global neural architectures.
 
 ##  Key Engineering Highlights
 * **Dynamic Regime Segmentation:** Integrated the `ruptures` library to run structural change-point detection, identifying latent operational shifts caused by institutional schedules and environmental metrics.
